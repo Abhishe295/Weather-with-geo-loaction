@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="search">
+            <input type="text" id="input" placeholder="Enter Your City">
+            <i class="material-icons">search</i>
+        </div>
+        <div class="error">
+            <h2>Invalid City Name</h2>
+        </div>
+        <div class="weather">
+            <div class="image">
+                <img src="" alt="" id="weather-image">
+            </div>
+            <div class="details">
+                <h2 class="city"></h2>
+                <p class="temp"></p>
+            </div>
+            <div class="main">
+                <div class="col col1">
+                    <div class="image1">
+                        <img src="windy.png" alt="">
+                    </div>
+                    <div class="wind-speed">
+                        <p>Wind Speed</p>
+                        <p id="wind-speed">43 km/h</p>
+                    </div>
+                </div>
+                <div class="col col2">
+                    <div class="image1">
+                        <img src="humidity.png" alt="">
+                    </div>
+                    <div class="humidity">
+                        <p>Humidity</p>
+                        <p id="humid">20%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
